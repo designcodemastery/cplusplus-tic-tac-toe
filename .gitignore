@@ -1,32 +1,41 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+build/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.o
 *.exe
-*.out
-*.app
+*.dll
+*.pdb
+*.ilk
+*.user
+*.log
+*.suo
+*.sdf
+*.ipch
+*.opensdf
+*.tlog
+*.vscode/
+*.ncb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcproj.user
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+_compile_commands.json
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+_build/
+_conan/
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+_graphics/
+__pycache__/
+*.pyc

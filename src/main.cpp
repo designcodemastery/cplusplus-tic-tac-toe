@@ -1,9 +1,9 @@
 // Entry point for the Tic-Tac-Toe application
-#include "Game.h"
+#include "Game.hpp"
 
 int main() {
     Game game;
-    game.playGame();
+    game.play();
     
     return 0;
 }

@@ -4,7 +4,8 @@ $projectRoot = Get-Location
 # Define folder structure
 $folders = @(
     "src",
-    "tests",
+    "include",
+    "docs",
     "build",
     ".vscode",
     ".github/workflows",
@@ -66,15 +67,15 @@ conaninfo.txt
 _graphics/
 __pycache__/
 *.pyc" },
-    @{ Path = "CMakeLists.txt"; Content = "cmake_minimum_required(VERSION 3.10)
+    @{ Path = "CMakeLists.txt"; Content = "cmake_minimum_required(VERSION 3.5)
 project(TicTacToe)
-add_executable(TicTacToe src/main.cpp src/Game.cpp)" },
+add_executable(TicTacToe ../src/main.cpp ../src/Game.cpp)" },
     @{ Path = "src/main.cpp"; Content = "// Entry point for the Tic-Tac-Toe application
 
 int main() {
     return 0;
 }" },
-    @{ Path = "src/Game.h"; Content = "// Game class header file" },
+    @{ Path = "src/Game.hpp"; Content = "// Game class header file" },
     @{ Path = "src/Game.cpp"; Content = "// Game class implementation file" },
     @{ Path = "tests/GameTests.cpp"; Content = "// Unit tests for the Game class" },
     @{ Path = ".vscode/settings.json"; Content = "{}" },

@@ -16,6 +16,6 @@ In the documentation folder you will find the following:
 
 ## Enhancements
 
-1. I would like to come back to this project at some stage and include a testing framework.
-2. I am interested in implementing an AI computer move facility using something like the MiniMax algorithm.
-3. As well as being cross-platform, I would like to look at making the app locale aware and support other languages than English.
+1. I would like to come back to this project at some stage and include a testing framework, such as Google Test or Catch2.
+2. I am interested in implementing an AI computer move facility using something like the Minimax algorithm.
+3. As well as being cross-platform, I would like to look at making the app locale aware and support languages other than English.
